@@ -6,7 +6,7 @@ from flask_marshmallow import Marshmallow
 app = Flask(__name__)
 cors = CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///todo.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database/todo.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
