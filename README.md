@@ -62,19 +62,19 @@ Running on: http://localhost:5000
 
 ### Get all tasks
 
-```http
+```
   GET /todos
 ```
 
 ### Create task
 
-```http
+```
   POST /create
 ```
 
 ### Get single task
 
-```http
+```
   GET /todo/<id>
 ```
 
@@ -84,7 +84,7 @@ Running on: http://localhost:5000
 
 ### Edit task
 
-```http
+```
   PUT /edit/<id>
 ```
 
@@ -94,7 +94,7 @@ Running on: http://localhost:5000
 
 ### Delete task
 
-```http
+```
   DELETE /delete/<id>
 ```
 
